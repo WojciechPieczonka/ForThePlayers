@@ -15,6 +15,12 @@ nav {
 nav .nav-link, nav .navbar-brand, nav .navbar-nav .nav-link.show, nav .fa-bars {
   color: #fff;
 }
-nav .nav-link:focus, nav .nav-link:hover, nav .navbar-nav .nav-link.active, nav .navbar-nav .nav-link.show {
+nav .nav-link:focus, nav .nav-link:hover, nav .navbar-nav .nav-link.active, nav .navbar-nav .nav-link.show, nav .navbar-brand:focus, nav .navbar-brand:hover {
   color: #039dff;
+}
+nav .navbar-toggler {
+  padding: 10px 15px;
+}
+nav .navbar-brand {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
