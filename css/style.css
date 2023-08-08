@@ -68,6 +68,19 @@ header.hero-img .fa-chevron-down {
   color: #fff;
 }
 
+@media (max-width: 300px) {
+  nav .navbar-toggler {
+    padding: 10px 4px;
+  }
+}
+@media (min-width: 768px) {
+  .hero-text h1 {
+    font-size: 44px;
+  }
+  .hero-text p {
+    font-size: 22px;
+  }
+}
 @media (min-width: 1200px) {
   header.hero-img {
     background-image: url("/img/hero-img-1920.jpg");
