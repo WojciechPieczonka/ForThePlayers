@@ -1,0 +1,24 @@
+@use"./colors"as *;
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333;
+}
+
+nav {
+    text-transform:uppercase;
+
+    .nav-link, .navbar-brand, .navbar-nav .nav-link.show, .fa-bars{
+        color: $white;
+    }   
+    .nav-link:focus, .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+        color: $main-blue;
+    }
+}
+   
