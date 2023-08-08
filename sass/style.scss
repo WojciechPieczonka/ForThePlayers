@@ -63,5 +63,20 @@ header.hero-img{
         justify-content: center;
         height: 100%;
     }
+
+    .fa-chevron-down{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom:20px;
+        font-size: 30px;
+        color: $white;
+    }
      
+}
+
+@media (min-width: 1200px){
+    header.hero-img{
+        background-image: url('/img/hero-img-1920.jpg'); 
+    }
 }
