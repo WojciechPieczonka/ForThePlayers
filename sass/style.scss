@@ -15,6 +15,10 @@ body{
     color: $main-blue;
 }
 
+.shadow-bg{
+background-color: rgb(0, 0, 0,0.8);
+}
+
 nav {
     z-index: 1;
     text-transform:uppercase;
