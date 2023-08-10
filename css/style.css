@@ -107,6 +107,33 @@ header.hero-img .fa-chevron-down {
   color: #039dff;
 }
 
+.aboutus-hero {
+  position: relative;
+  color: #ddd;
+  background-image: url("../img/electronics-640.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+.aboutus-hero .aboutus-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+.aboutus-hero .aboutus-hero-item {
+  margin: 10px 0;
+}
+.aboutus-hero .aboutus-hero-item i {
+  font-size: 36px;
+}
+.aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+  font-size: 24px;
+}
+
 @media (max-width: 300px) {
   nav .navbar-toggler {
     padding: 10px 4px;
@@ -123,6 +150,9 @@ header.hero-img .fa-chevron-down {
 @media (min-width: 992px) {
   html {
     scroll-padding-top: 72px;
+  }
+  .aboutus-hero {
+    background-image: url("../img/electronics-1920.jpg");
   }
 }
 @media (min-width: 1200px) {
