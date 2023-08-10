@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #333;
+  background-color: #ebecf2;
 }
 
 .blue-text {
@@ -145,6 +145,10 @@ header.hero-img .fa-chevron-down {
 }
 .portfolio .carousel-indicators {
   padding-bottom: 20px;
+}
+
+.prices .price-box {
+  margin: 20px;
 }
 
 @media (max-width: 300px) {
