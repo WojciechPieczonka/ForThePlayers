@@ -27,7 +27,7 @@ background-color: rgb(0, 0, 0,0.8);
 .underline{
     height: 4px;
     width: 60px;
-    margin:0 auto;
+    margin: 0 auto 40px;
     background-color: $main-blue;
 }
 
@@ -90,6 +90,21 @@ header.hero-img{
         color: $white;
     }
      
+}
+
+.aboutus{
+    i{
+    margin-top: 20px;
+    font-size: 30px;
+    }
+
+    .aboutus-card-title{
+        font-size:18px;
+        text-transform: uppercase;
+    }
+    .aboutus-card-text{
+        font-size: 14px;
+    }
 }
 
 //galaxy fold size //

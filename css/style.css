@@ -25,7 +25,7 @@ body {
 .underline {
   height: 4px;
   width: 60px;
-  margin: 0 auto;
+  margin: 0 auto 40px;
   background-color: #039dff;
 }
 
@@ -83,6 +83,18 @@ header.hero-img .fa-chevron-down {
   bottom: 20px;
   font-size: 30px;
   color: #fff;
+}
+
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.aboutus .aboutus-card-text {
+  font-size: 14px;
 }
 
 @media (max-width: 300px) {
