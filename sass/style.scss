@@ -149,6 +149,22 @@ header.hero-img{
     }
 }
 
+.portfolio{
+   .carousel-item{
+    height: 600px;
+    }
+    .carousel-caption{
+        left: 0;
+        right: 0;
+        padding: 40px 0px;
+        background-color: rgb(0, 0, 0,0.7);
+    }
+    .carousel-indicators{
+        padding-bottom: 20px;
+    }
+   
+}
+
 //galaxy fold size //
 @media (max-width:300px){
    nav{
