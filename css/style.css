@@ -147,8 +147,43 @@ header.hero-img .fa-chevron-down {
   padding-bottom: 20px;
 }
 
+.prices .price-box:hover {
+  scale: 1.05;
+}
 .prices .price-box {
   margin: 20px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  transition: scale 0.3s;
+}
+.prices .price-box .price-title {
+  color: #039dff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+}
+.prices .price-box span {
+  font-weight: bold;
+}
+.prices .price-box i {
+  font-size: 24px;
+  padding: 0 5px;
+}
+.prices .price-box button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.prices .price-box .price-tag {
+  font-weight: bold;
+  font-size: 30px;
+}
+.prices .price-info {
+  margin-top: 30px;
+}
+.prices .price-info a {
+  text-decoration: none;
 }
 
 @media (max-width: 300px) {
