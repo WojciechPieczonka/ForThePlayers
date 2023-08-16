@@ -213,6 +213,56 @@ header.hero-img{
     }
 }
 
+.team{
+    position: relative;
+    background-image: url("../img/team/office-1920.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+
+        .section-title {
+            color: $light-gray;
+        }
+
+        .team-shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0, 0.6);
+        z-index: -1;
+        }
+
+        .card {
+            transition: scale 0.3s;
+
+            img {
+                height: 300px;
+                object-fit:cover
+            }
+
+            i {
+                padding: 10px;
+            }
+        }
+
+        .card:hover{
+            scale: 0.96;
+        }
+
+        .card-title {
+            margin-bottom: 20px;
+            text-align:center;
+            text-transform: uppercase;
+        }
+        .card-body{
+            height: 160px;
+        }
+
+}
+
 //galaxy fold size //
 @media (max-width:300px){
    nav{
@@ -220,6 +270,16 @@ header.hero-img{
         padding: 10px 4px;
     }
    }
+}
+
+@media (max-width:320px){
+    .team{
+        .card {
+            img     {
+             height: 140px;
+            }
+        }
+    }
 }
 
 @media (min-width:768px){
