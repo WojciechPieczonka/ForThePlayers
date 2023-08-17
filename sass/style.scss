@@ -263,6 +263,25 @@ header.hero-img{
 
 }
 
+.achievements-list{
+    padding: 20px 0;
+    
+        i{
+            font-size: 48px;
+            padding: 10px;
+            color: $white;
+            text-shadow: 0  0  5px rgb(0, 0, 0, 0.8);
+        }
+
+        .achievement-number {
+            font-size: 22px;
+        }
+
+        .achievement-text{
+            text-transform: uppercase;
+        }
+}
+
 //galaxy fold size //
 @media (max-width:300px){
    nav{

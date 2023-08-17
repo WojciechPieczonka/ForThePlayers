@@ -229,6 +229,22 @@ header.hero-img .fa-chevron-down {
   height: 160px;
 }
 
+.achievements-list {
+  padding: 20px 0;
+}
+.achievements-list i {
+  font-size: 48px;
+  padding: 10px;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+.achievements-list .achievement-number {
+  font-size: 22px;
+}
+.achievements-list .achievement-text {
+  text-transform: uppercase;
+}
+
 @media (max-width: 300px) {
   nav .navbar-toggler {
     padding: 10px 4px;
