@@ -265,7 +265,7 @@ header.hero-img{
 
 .achievements-list{
     padding: 20px 0;
-    
+
         i{
             font-size: 48px;
             padding: 10px;
@@ -280,6 +280,31 @@ header.hero-img{
         .achievement-text{
             text-transform: uppercase;
         }
+}
+
+.contact{
+    position: relative;
+    background-image:url('../img/contact-bg-640.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: $light-gray;
+    z-index:0;
+
+    h3 {
+        text-transform: uppercase;
+    }
+
+
+    .contact-shadow{
+        position:absolute;
+        top:0;
+        left:0;
+        height: 100%;
+        width: 100%;
+        background-color:rgb(0, 0, 0, 0.6);
+        z-index:-1;
+    }
 }
 
 //galaxy fold size //

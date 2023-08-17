@@ -245,6 +245,28 @@ header.hero-img .fa-chevron-down {
   text-transform: uppercase;
 }
 
+.contact {
+  position: relative;
+  background-image: url("../img/contact-bg-640.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ddd;
+  z-index: 0;
+}
+.contact h3 {
+  text-transform: uppercase;
+}
+.contact .contact-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
 @media (max-width: 300px) {
   nav .navbar-toggler {
     padding: 10px 4px;
