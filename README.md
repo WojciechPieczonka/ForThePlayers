@@ -2,4 +2,4 @@
  
  This is the website for the game development software house.
 
- LIVE:
+ LIVE: https://fortheplayers.netlify.app/
