@@ -254,8 +254,8 @@ header.hero-img .fa-chevron-down {
   color: #ddd;
   z-index: 0;
 }
-.contact h3 {
-  text-transform: uppercase;
+.contact .underline {
+  background-color: #ddd;
 }
 .contact .contact-shadow {
   position: absolute;
@@ -265,6 +265,30 @@ header.hero-img .fa-chevron-down {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
+}
+.contact .contanct-us {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.contact .contanct-us .contact-item {
+  margin: 20px 0;
+}
+.contact .contanct-us h3 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.contact .contanct-us .social-media {
+  font-size: 32px;
+}
+.contact .contanct-us .social-media a {
+  padding: 10px;
+  color: #fff;
+  transition: color 0.3s;
+}
+.contact .contanct-us .social-media a:hover {
+  color: #039dff;
 }
 
 @media (max-width: 300px) {
